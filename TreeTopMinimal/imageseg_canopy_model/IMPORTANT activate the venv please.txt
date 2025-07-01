@@ -1,0 +1,1 @@
+Make sure to run "activate-coreml" in the terminal it is an alias that will activate the coreml venv

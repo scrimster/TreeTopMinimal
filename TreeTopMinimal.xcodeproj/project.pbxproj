@@ -29,9 +29,25 @@
 		BF895EE92E04C6EF0034CD57 /* TreeTopMinimalUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TreeTopMinimalUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		BF895F1D2E04C7990034CD57 /* Exceptions for "TreeTopMinimal" folder in "TreeTopMinimal" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				imageseg_canopy_model,
+			);
+			target = BF895ED02E04C6ED0034CD57 /* TreeTopMinimal */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
 /* Begin PBXFileSystemSynchronizedRootGroup section */
 		BF895ED32E04C6ED0034CD57 /* TreeTopMinimal */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				BF895F1D2E04C7990034CD57 /* Exceptions for "TreeTopMinimal" folder in "TreeTopMinimal" target */,
+			);
+			explicitFolders = (
+				imageseg_canopy_model,
+			);
 			path = TreeTopMinimal;
 			sourceTree = "<group>";
 		};
